@@ -1,0 +1,25 @@
+{
+    "changemedemo": {
+        "apigateway": {
+            "path": "/change",
+            "method": {
+                "value": "POST",
+                "items": [
+                    "GET",
+                    "POST",
+                    "PUT",
+                    "DELETE",
+                    "HEAD",
+                    "OPTIONS",
+                    "PATCH"
+                ]
+            },
+            "body": {
+                "amount": "2.54"
+            }
+        },
+        "lambda": {
+            "amount": "1.39"
+        }
+    }
+}
